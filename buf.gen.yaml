@@ -1,0 +1,20 @@
+version: v1
+managed:
+  enabled: true
+  go_package_prefix:
+    default: github.com/AJackTi/grpc-go-react-example/gen
+plugins:
+  - name: ts
+    out: ./frontend/gen/
+    opt:
+      - target=web
+
+  - name: go
+    out: ./gen
+    opt:
+      - paths=source_relative
+
+  - name: go-grpc
+    out: ./gen
+    opt:
+      - paths=source_relative
