@@ -1,4 +1,5 @@
 ## Reference from [repo](https://github.com/johanbrandhorst/grpc-web-go-react-example).
+**(My source code is the latest version compared to the original source.)**
 
 # Small Go/React/TypeScript gRPC-Web example
 
